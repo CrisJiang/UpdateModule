@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,480" sizebox="4,4,6,6" caption="0,0,0,0" maxinfo="800,480" mininfo="800,480" >
+ <!-- 考场看板 -->
+ <Font id="1" name="微软雅黑" size="24" bold="false" italic="false" underline="false" default="true" />
+ <!-- 时间 -->
+ <Font id="2" name="微软雅黑" size="25" bold="false" italic="false" underline="false" />
+ <!-- 海南省普通高考 -->
+ <Font id="3" name="微软雅黑" size="20" bold="false" italic="false" underline="false"/>
+  <!-- xxx考场  -->
+ <Font id="4" name="微软雅黑" size="36" bold="false" italic="false" underline="false"/>
+   <!-- 未读消息  -->
+ <Font id="5" name="微软雅黑" size="20" bold="false" italic="false" underline="false"/>
+    <!-- 人数  -->
+ <Font id="6" name="微软雅黑" size="28" bold="true" italic="false" underline="false"/>
+    <!-- 下拉框  -->
+ <Font shared="true" id="7" name="微软雅黑" size="36" bold="false"/>
+    <!-- 场次  -->
+ <Font id="8" name="黑体" size="30" bold="false" italic="false" underline="false"/>
+     <!-- 考场号  -->
+ <Font id="9" name="黑体" size="42" bold="false" italic="false" underline="false"/>
+
+    <VerticalLayout bkcolor="#ffffffff" size="800,480">
+        <GifAnim padding="0,0" width="800" height="480" bkimage="res/update.gif"/>
+    </VerticalLayout>
+</Window>
